@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+#header{
+    height: 48px;
+    background: #85b839;
+}
+#header-wrapper{
+    height: 48px;
+    /* background: #ff0000; */
+    width: 1200px;
+    margin:0 auto;
+    line-height: 48px;
+}
+.header-left{
+    float: left;
+    color:#fff;
+
+}
+.header-right{
+    float:right;
+}
+/* 后代选择器 */
+.header-right .list{
+    float: left;
+    /* margin 第一个垂直 第二个 水平 */
+    margin: 0 9px;
+    color:white;
+}
