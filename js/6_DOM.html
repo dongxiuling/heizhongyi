@@ -24,10 +24,15 @@
         var oDiv = document.getElementById('div1'); //返回dom元素
         // console.log(oDiv)
         // 绑定事件   onclick点击事件
-        oDiv.onclick = function(){ //事件处理函数
+        oDiv.onmouseover = function(){ //事件处理函数
             // console.log('你点击了div1')
             oDiv.innerHTML = "🙃呵呵";
             oDiv.style.background = "green";
+        }
+        oDiv.onmouseout = function(){ //事件处理函数
+            // console.log('你点击了div1')
+            oDiv.innerHTML = "haha";
+            oDiv.style.background = "red";
         }
         
 

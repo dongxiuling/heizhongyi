@@ -28,6 +28,31 @@ body{
 .header-right{
     float:right;
 }
+#list-language{
+    position: relative;
+}
+.sub-list{
+    /* background: #ff0000; */
+    position: absolute;
+    left:0px;
+    top:48px;
+    width: 175px;
+    /* css3语法 边框阴影 */
+    box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
+    display: none;
+
+}
+.sub-list li{
+    color:#888;
+    line-height: 46px;
+    text-indent:20px;
+}
+.sub-list li:hover{
+    color:#85B839;
+    background: #f1f1f1;
+    /* 鼠标划入手状 */
+    cursor: pointer;
+}
 /* 后代选择器 */
 .header-right .list{
     float: left;
