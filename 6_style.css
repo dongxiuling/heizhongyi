@@ -91,4 +91,22 @@ body{
 }
 .header2-info{
     float: right;
+    /* background: #ff0000; */
+    position: relative;
+}
+.info-bag{
+    margin-top:60px;
+    margin-right:40px;
+}
+.count{
+    position: absolute;
+    left: 24px;
+    top: 38px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #84b839;
+    color: #fff;
+    text-align: center;
+
 }
