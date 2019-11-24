@@ -35,3 +35,60 @@ body{
     margin: 0 9px;
     color:white;
 }
+
+/* header2 开始 */
+#header2{
+    width: 1200px;
+    /* 水平居中 */
+    margin:0 auto;
+    /* background: #ff0000; */
+    height: 153px;
+}
+.header2-logo{
+    float: left;
+    margin-top:50px;
+    margin-right:185px;
+}
+.header2-search{
+    float: left;
+    width: 584px;
+    height: 45px;
+    border:1px solid #eee;
+    margin-top:50px;
+    border-radius: 23px;
+}
+.search-left{
+    width: 154px;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    color:#888;
+    text-align: center;
+}
+.search-line{
+    float: left;
+    color:#888;
+    margin-top:12px;
+}
+.search-right{
+    float:right;
+}
+.search-ipt{
+    width: 368px;
+    height: 43px;
+    border:none;
+    /* 去掉input选中蓝边框 */
+    outline: none;
+    color:#888;
+    float: left;
+}
+.search-btn{
+    width: 40px;
+    height: 43px;
+    background: url(images/search.png) no-repeat 10px 11px;
+    border:none;
+    float: right;
+}
+.header2-info{
+    float: right;
+}
