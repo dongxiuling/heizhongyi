@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1"></div>
+    <!-- js中两种数据类型
+        基本数据类型  number string boolean 
+            undefined(定义变量没有赋值 ) 
+            null(通过getElementById 获取元素取不到  返回null 代表空对象)
+        引用数据类型  array object
+    -->
+    <script>
+        // 只能包含字母，数字，和下划线，还有个特殊的$字符，首字母以字母，下划线，还有$开头
+        // 数值类型
+        var num = 123;
+        // 字符串
+        var str = "abc";
+        // var str = 'abc';
+        var b = true;
+        var x ;
+        var oDiv = document.getElementById('div2');
+        // console.log(typeof b);
+
+        var a = 10;
+        var b = 20;
+        var c = "xx";
+        // 字符串拼接
+        console.log(a+c); //"10123"  
+        console.log(a-c) //NaN
+
+        // 只有+ 除了加法运算以外 还可以做字符串拼接  
+        // - 隐试转化 能转成数组 运算 ，转不了 计算的结果是NaN
+
+
+
+
+    </script>
+</body>
+</html>
