@@ -1,0 +1,29 @@
+#div1{
+    width: 299px;
+    height: 300px;
+    /* background-color: red;
+    background-image: url(images/a.jpeg);
+    background-repeat: no-repeat;
+    第一个值 水平便宜 第二值代表垂直便宜 */
+    /* background-position: 0px 0px ; */
+    background: red url(images/a.jpeg) no-repeat 0px 0px;
+    /* 文字 */
+    font-size:16px;
+    color:green;
+    font-family: cursive;
+    font-family: tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    /* font-style: italic; */
+    /* border:1px solid #000; */
+    /* 文字水平对齐方式  left center right*/
+    text-align: center;
+    /* 单行文本垂直对齐方式  line-height = height */
+    line-height: 300px;
+}
+ul{
+    list-style:none;
+}
+a{
+    /* text-decoration: line-through; */
+    text-decoration: none;
+}
+

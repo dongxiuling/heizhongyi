@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        哈哈😀
+    </div>
+    <script>
+        // DOM document object model
+        // 点击div输出内容
+        // 获取元素的方式  通过id获取元素 
+        var oDiv = document.getElementById('div1');
+        // console.log(oDiv)
+        // 绑定事件   onclick点击事件
+        oDiv.onclick = function(){ //事件处理函数
+            // console.log('你点击了div1')
+            oDiv.innerHTML = "🙃呵呵";
+            oDiv.style.background = "green";
+        }
+    
+    </script>
+</body>
+</html>
