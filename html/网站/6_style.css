@@ -30,6 +30,8 @@ body{
 }
 #list-language{
     position: relative;
+    /* 鼠标滑过手状 */
+    cursor: pointer;
 }
 .sub-list{
     /* background: #ff0000; */
@@ -37,15 +39,14 @@ body{
     left:0px;
     top:48px;
     width: 175px;
-    /* css3语法 边框阴影 */
-    box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
+    /* css3语法 边框阴影 水平偏移 垂直偏移 模糊度 外延值 颜色 */
+box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     display: none;
-
 }
 .sub-list li{
     color:#888;
     line-height: 46px;
-    text-indent:20px;
+    text-indent:20px; /*文本首行缩进*/
 }
 .sub-list li:hover{
     color:#85B839;
