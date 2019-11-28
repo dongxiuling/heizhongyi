@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+            }
+            body{
+                height:3000px;
+            }
+            div{
+
+            }
+            p{
+
+            }
+            /* id唯一 */
+            #header{
+
+            }
+            /* .list 类选择器  */
+            .list{
+                width: 200px;
+                height: 200px;
+                background: #ff0000;
+            }
+            /* 后代选择器 */
+            ul .list{
+
+            }
+            a:hover{
+                color:green;
+            }
+
+            /* 背景  */
+            #div1{
+                /* 背景色 */
+                background-color: green;
+                height: 300px;
+                /* 背景图片 */
+                background-image: url(html/images/a.jpeg);
+                /* 背景重复 */
+                background-repeat: no-repeat;
+                /* 背景图片定位 */
+                background-position: 200px 100px;
+
+                background: green url(html/images/a.jpeg)  no-repeat 200px 100px;
+                /* 字体 */
+                font-size:20px ;
+                color: red;
+                font-family: 'Courier New', Courier, monospace;
+
+                /* font-style: italic; */
+                /* 字体粗细 */
+                font-weight: 900;
+                font-weight: normal;  /* 400*/
+                font-weight: bold;
+
+
+
+                text-align: center; /*left  center right*/
+
+                /* 单行文本垂直对齐 */
+
+                line-height: 300px;
+            }
+
+            ul{
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+            }
+
+            /* 盒模型  */
+            #div3{
+                width: 200px;
+                height: 200px;
+                background: #ff0000;
+                /* 内边距 */
+                padding: 30px;
+                border:3px solid #000;
+                margin: 50px;
+            }
+
+            /* 浮动 */
+            
+
+
+
+            /* 定位 */
+        </style>
+    </head>
+    <body>
+        <h1>标题</h1>
+        <p>段落</p>
+        <a href="http://www.baidu.com" target="_black">百度</a>
+        <img src="html/images/a.jpeg" alt="这是一张图" title="图片">
+        <ul>
+            <li>1111</li>
+            <li class="list">222</li>
+            <li class="list">333</li>
+        </ul>
+        <!-- 布局 -->
+        <div id="header">
+            哈哈
+        </div>
+        <!-- 行级元素 宽度由内容撑的 -->
+        <span>fahgfda</span>
+        <!-- 文本框  用户名 -->
+        <input type="text">
+        <input type="password">
+        <input type="radio" name="sex">男
+        <input type="radio" name="sex">女
+        爱好：
+        <input type="checkbox" name="hobby">吃饭
+        <input type="checkbox" name="hobby">睡觉
+        <input type="checkbox" name="hobby">敲代码
+
+        <button>click</button>
+        <select >
+            <option value="">黑大</option>
+            <option value="">中医药</option>
+            <option value="">理工</option>
+        </select>
+
+        <div id="div3">
+            啊哈哈哈哈哈哈哈哈哈哈g啊哈哈哈哈哈哈哈哈哈哈dsgf啊哈哈哈哈哈哈哈哈哈哈jdsgfyud啊哈哈哈哈哈哈哈哈哈哈gufygdu啊哈哈哈哈哈哈哈哈哈哈gfu
+        </div>
+    </body>
+</html>
