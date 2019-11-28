@@ -32,6 +32,7 @@
                 absolute 绝对定位 相对于最近已定位的祖先元素如果没有最近已定位的祖先元素相对于body
                 定位后空间释放
                 fixed 固定定位
+                static 
             */
             /* position: relative;
             left:100px;
@@ -41,18 +42,28 @@
             left:30px; 
             top:50px; */
 
-            position: fixed;
+            /* position: fixed; */
             /* left:10px;
             top:20px; */
-            right:0px;
-            bottom:0px;
+            /* right:0px;
+            bottom:0px; */
+            /* 相对定位 相对于自己初始位置  定位后空间不释放 */
+            /* position: relative;
+            left:100px;
+            top:50px; */
+            /* 绝对定位  空间释放 相对于最近已定位的祖先元素如果没有最近已定位的祖先元素相对于body */
+            /* position: absolute;
+            left:100px;
+            top:50px; */
+            position: fixed;
+            right: 30px;
+            bottom:20px;
         }
         #div3{
             width: 100px;
             height: 50px;
             background: #0000ff;
             float: left;
-
         }
     </style>
 </head>
