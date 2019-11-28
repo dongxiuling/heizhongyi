@@ -1,14 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-ul{
-    list-style: none;
-}
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-}
+
 #header{
     height: 48px;
     background: #85b839;
@@ -136,3 +126,43 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     text-align: center;
 
 }
+
+/* 轮播图开始 */
+.slide-container{
+    width: 773px;
+    height: 597px;
+    background: #eeeeee;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    position: relative;
+}
+.img-box{
+    width:2319px;
+    height:597px;
+}
+.img-box img{
+    width: 773px;
+    height: 597px;
+}
+.img-box li{
+    float: left;
+}
+.btn-box{
+    position: absolute;
+    bottom: 27px;
+    left:355px;
+}
+.btn-box li{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #ccc;
+    float: left;
+    margin-right: 10px;
+}
+
+.btn-box .active{
+    background: #84b839;
+    width:20px;
+}
+/* 轮播图结束 */

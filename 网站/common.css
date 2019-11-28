@@ -1,0 +1,16 @@
+/* 公用样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.wrapper{
+    width: 1200px;
+    margin:0 auto;
+}
