@@ -139,6 +139,9 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
 .img-box{
     width:2319px;
     height:597px;
+    position: absolute;
+    left:0px;
+    top:0px;
 }
 .img-box img{
     width: 773px;
