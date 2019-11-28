@@ -16,21 +16,20 @@ oBtn.onclick = function(){
 
 $('.btn-box li').on('click',function(){
     // 当前点击的li => $(this)  添加active，找到兄弟元素移除active样式
-
     // $(this).addClass('active');
     // $(this).siblings().removeClass('active');
     $(this).addClass('active').siblings().removeClass('active');
     // 开始滑动显示图片 
     //按钮索引 0   1     2    n
     //显示图片 0   1     2    n*-imgWidth
-    
+
     // 获取当前点击图片的索引  -》 推断出ul移动的left =  -index * imgWidth
     console.log($(this).index());
     // 将ul的left设置为 - 当前索引 * 图片宽度
     // $('.img-box').css("left", -$(this).index()*773);
     // animate 通过动画的方式将left移动为 - 当前索引 * 图片宽度
     $('.img-box').animate({
-        left: -$(this).index()*773
+        left: -$(this).index() * $('.img-box img').width()
     })
 })
 
