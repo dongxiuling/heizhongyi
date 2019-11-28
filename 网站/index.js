@@ -22,9 +22,8 @@ $('.btn-box li').on('click',function(){
     // 开始滑动显示图片 
     //按钮索引 0   1     2    n
     //显示图片 0   1     2    n*-imgWidth
-
-    // 获取当前点击图片的索引  -》 推断出ul移动的left =  -index * imgWidth
-    console.log($(this).index());
+    //推断出ul移动的left =  -index * imgWidth
+     console.log($(this).index());  //获取当前点击图片的索引 
     // 将ul的left设置为 - 当前索引 * 图片宽度
     // $('.img-box').css("left", -$(this).index()*773);
     // animate 通过动画的方式将left移动为 - 当前索引 * 图片宽度
