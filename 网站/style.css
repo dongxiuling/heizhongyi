@@ -261,13 +261,14 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     width:1800px;
 }
 .deal-list li{
-    width: 268px;
+    width: 270px;
     height: 422px;
     border:1px solid #F1F1F1;
     border-radius: 8px;
     float: left;
     margin:0 15px;
     padding:20px 20px 30px 20px;
+    /* 怪异盒模型  所占的宽度 是width值 不管你添加padding还是border,只会讲内容区域的宽度缩小  */
     box-sizing: border-box;
     background: #f8f8f8;
 }
