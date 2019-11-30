@@ -44,8 +44,8 @@ $('.slide-container').on('mouseover',function(){
     // 开启定时器 
     start();
 })
-
 // 定义一个开启定时器的函数 
+// function关键字定义的函数 有函数提升 
 function start(){
     // timer 局部变量（函数中定义的变量是局部变量 ）
     timer = setInterval(function(){
