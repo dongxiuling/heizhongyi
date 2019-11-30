@@ -271,6 +271,14 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     /* 怪异盒模型  所占的宽度 是width值 不管你添加padding还是border,只会讲内容区域的宽度缩小  */
     box-sizing: border-box;
     background: #f8f8f8;
+    position: relative;
+    cursor: pointer;
+}
+.deal-list li:hover .deal-big{
+    display: inline;
+}
+.deal-list li:hover .deal-cart{
+    bottom:0px;
 }
 .deal-list li .list-img{
     width: 228px;
@@ -307,4 +315,90 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     color:#333333;
     text-align: center;
     margin:10px 0 4px 0;
+}
+.star-box{
+    margin-left:81px;
+}
+.star{
+    float: left;
+    width:13px;
+    height:13px;
+    background:url(images/start.png) 0 0 no-repeat;
+    background-size:13px 13px;
+}
+.star-active{
+    background-image: url(images/star-active.png);
+}
+.deal-new{
+    width: 48px;
+    height: 22px;
+    background: #85B839 ;
+    color:#fff;
+    text-align: center;
+    line-height: 22px; 
+    position: absolute;
+    left:20px;
+    top:20px;
+    border-radius: 11px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.deal-like{
+    position: absolute;
+    right:20px;
+    top:20px;
+    width: 18px;
+    height: 18px;
+    background: url(images/live.png) 0 0 no-repeat;
+    background-size:18px 18px;
+    cursor: pointer;
+
+}
+.deal-like:hover{
+    background-image: url(images/like-active.png);
+}
+.deal-big{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    background:rgba(255,255,255,0.7);
+    /* 水平 垂直挪自己宽高的50% */
+    transform: translate(-50%,-120%);
+    display: none;
+}
+.deal-big:hover{
+    background:#85B839;
+}
+.deal-cart{
+    position: absolute;
+    bottom: -108px;
+    left:0px;
+    height: 108px;
+    background: #f8f8f8;
+    width:100%;
+    /* css3 添加过渡效果  过度属性  执行时间 运动方式 */
+    transition: bottom 0.4s linear ;
+}
+.deal-cart button{
+    width: 228px;
+    height: 42px;
+    background: #fff;
+    border:1px solid #85B839;
+    border-radius: 21px;
+    text-align: center;
+    line-height: 42px;
+    color:#000;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    font-weight: 700;
+}
+.deal-cart button:hover{
+    background: #85B839;
+    color:#fff;
 }
