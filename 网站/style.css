@@ -134,7 +134,7 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     background: #eeeeee;
     /* 溢出隐藏 */
     overflow: hidden;
-    position: relative;
+    position: relative;float: left;
 }
 .img-box{
     width:2319px;
@@ -170,3 +170,54 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     width:20px;
 }
 /* 轮播图结束 */
+/* banner开始 */
+.banner-container{
+    width: 377px;
+    float:right;
+    margin-right:30px;
+}
+.banner-list{
+    width: 347px;
+    height: 290px;
+    border-radius: 8px;
+    padding-left:30px;
+    /* 怪异盒模型 */
+    /* box-sizing: border-box; */
+}
+.banner-list h2{
+    font-size: 29px;
+    line-height: 32px;
+    font-weight: 600;
+    width: 182px;
+    /* margin-top:60px; */
+    padding-top:60px;
+}
+.banner-list p{
+    padding-top:8px;
+    color:#888;
+    font-size: 16px;
+    line-height: 22px;
+    width: 182px;
+}
+.banner-list button{
+    width: 109px;
+    height: 40px;
+    background: #85b839;
+    color:#fff;
+    border-radius: 20px;
+    margin-top:10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.banner-list button:hover{
+    background: #000;
+}
+.banner-list1{
+    background: url(images/banner-1.jpg);
+    margin-bottom: 17px;
+}
+.banner-list2{
+    background: url(images/banner-2.jpg);
+}
+
+/* banner结束 */
