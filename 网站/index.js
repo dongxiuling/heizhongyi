@@ -57,3 +57,13 @@ function start(){
     },2000) 
 }
 
+// deal 点击切换
+
+$('.deal-btn li').on('click',function(){
+    // console.log($('.deal-list li').outerWidth(true));
+    $(this).addClass('active').siblings().removeClass('active');
+    // outerWidth  获取到包含margin的 width值
+    $('.deal-list').animate({
+        left:- $(this).index() *  $('.deal-list li').outerWidth(true)
+    })
+})

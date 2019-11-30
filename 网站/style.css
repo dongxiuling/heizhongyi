@@ -158,7 +158,8 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     bottom: 27px;
     left:355px;
 }
-.btn-box li{
+/* 群组选择器 */
+.btn-box li,.deal-btn li{
     width: 8px;
     height: 8px;
     border-radius: 4px;
@@ -166,9 +167,11 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
     float: left;
     margin-right: 10px;
     cursor: pointer;
+    /* 过度 */
+    transition: width 0.7s linear;
 }
 
-.btn-box .active{
+.btn-box .active,.deal-btn .active{
     background: #84b839;
     width:20px;
 }
@@ -256,9 +259,15 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
 /* deal-list */
 .deal-list-box{
     overflow: hidden;
+    position: relative;
+    height:422px;
 }
 .deal-list{
     width:1800px;
+    position: absolute;
+    left:0px;
+    top:0px;
+    height:422px;
 }
 .deal-list li{
     width: 270px;
@@ -401,4 +410,7 @@ box-shadow:0 0 6px 1px rgba(0,0,0,0.1);
 .deal-cart button:hover{
     background: #85B839;
     color:#fff;
+}
+.deal-btn{
+    margin:30px 0 30px 572px
 }
